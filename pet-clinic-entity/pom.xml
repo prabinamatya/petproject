@@ -27,7 +27,7 @@
 		<!-- Logging -->
 		<logback.version>1.1.1</logback.version>
 		<slf4j.version>1.7.6</slf4j.version>
-		
+
 		<!-- Test -->
 		<junit.version>4.11</junit.version>
 		<hamcrest.version>1.3</hamcrest.version>
@@ -38,7 +38,7 @@
 		<jodatime-hibernate.version>1.3</jodatime-hibernate.version>
 		<jodatime-jsptags.version>1.1.1</jodatime-jsptags.version>
 		<jodatime.version>2.3</jodatime.version>
-		<jadira-usertype-core.version>3.1.0.CR8</jadira-usertype-core.version>
+		<jadira-usertype-core.version>3.1.0.GA</jadira-usertype-core.version>
 
 		<!-- Database access -->
 		<tomcat-jdbc.version>7.0.42</tomcat-jdbc.version>
@@ -161,6 +161,12 @@
 			<artifactId>joda-time-jsptags</artifactId>
 			<version>${jodatime-jsptags.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jadira.usertype</groupId>
+			<artifactId>usertype.core</artifactId>
+			<version>${jadira-usertype-core.version}</version>
+		</dependency>
+
 
 		<!-- Databases - Uses HSQL by default -->
 		<dependency>
@@ -208,6 +214,17 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>el-impl</artifactId>
+			<version>2.2</version>
+		</dependency>
 
 	</dependencies>
 	<dependencyManagement>

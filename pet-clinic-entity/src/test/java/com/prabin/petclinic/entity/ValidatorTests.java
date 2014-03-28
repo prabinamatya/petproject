@@ -18,7 +18,6 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
  *
  */
 
-@Ignore
 public class ValidatorTests {
 	
 	private Validator createValidator() {
