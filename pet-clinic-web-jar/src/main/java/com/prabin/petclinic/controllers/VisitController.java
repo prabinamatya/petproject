@@ -33,6 +33,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.prabin.petclinic.entity.Pet;
 import com.prabin.petclinic.entity.Visit;
+import com.prabin.petclinic.services.ClinicService;
 
 /**
  * @author Juergen Hoeller

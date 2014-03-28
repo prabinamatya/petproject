@@ -22,6 +22,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.prabin.petclinic.entity.Vets;
+import com.prabin.petclinic.services.ClinicService;
 
 /**
  * @author Juergen Hoeller

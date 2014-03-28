@@ -33,6 +33,7 @@ import org.springframework.web.bind.support.SessionStatus;
 import com.prabin.petclinic.entity.Owner;
 import com.prabin.petclinic.entity.Pet;
 import com.prabin.petclinic.entity.PetType;
+import com.prabin.petclinic.services.ClinicService;
 
 /**
  * @author Juergen Hoeller

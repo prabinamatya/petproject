@@ -34,6 +34,7 @@ import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.prabin.petclinic.entity.Owner;
+import com.prabin.petclinic.services.ClinicService;
 
 /**
  * @author Juergen Hoeller
