@@ -19,7 +19,6 @@
 
 	<dependencies>
 		<dependency>
-			<name>pet-clinic-entity</name>
 			<groupId>com.prabin.petclinic</groupId>
 			<artifactId>pet-clinic-entity</artifactId>
 			<version>1.0-SNAPSHOT</version>
